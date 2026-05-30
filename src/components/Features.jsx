@@ -32,7 +32,7 @@ const FeatureCard = ({ title, description, linkText, iconUrl }) => {
       {/* Learn More Link (Component 3) */}
       <div className="mt-auto pt-2">
         <a href="#" className="inline-block group/link">
-          <img src="/component3.svg" alt="learn more" className="h-[24px] object-contain opacity-90 group-hover/link:opacity-100 transition-opacity" />
+          <img src="./component3.svg" alt="learn more" className="h-[24px] object-contain opacity-90 group-hover/link:opacity-100 transition-opacity" />
         </a>
       </div>
     </div>
@@ -44,31 +44,31 @@ const featuresList = [
     title: "Core Banking CB7",
     description: "CB7 helps your financial institution improve the client experience, automate and optimize procedures, simplify banking operations for your employees, improve risk management, increase productivity, and ensure full regulatory compliance.",
     linkText: "learn more",
-    iconUrl: "/feature1.svg"
+    iconUrl: "./feature1.svg"
   },
   {
     title: "Digital Banking N7",
     description: "N7 brings full capabilities across strategy, human-centred design, operations, engineering and data science to create and deliver disruptive innovation. Our approach to building digital banks is specifically designed to help clients",
     linkText: "learn more",
-    iconUrl: "/feature2.svg"
+    iconUrl: "./feature2.svg"
   },
   {
     title: "Open Banking",
     description: "Our API banking helps you to gain actionable insights, enable account aggregation, streamline customer onboarding, KYC, and payment initiation, offer predictive budgeting tools, and introduce enhanced credit scoring.",
     linkText: "learn more",
-    iconUrl: "/feature3.svg"
+    iconUrl: "./feature3.svg"
   },
   {
     title: "Loan Origination System",
     description: "N7 brings full capabilities across strategy, human-centred design, operations, engineering and data science to create and deliver disruptive innovation. Our approach to building digital banks is specifically designed to help clients",
     linkText: "learn more",
-    iconUrl: "/feature4.svg"
+    iconUrl: "./feature4.svg"
   },
   {
     title: "Loan Management System",
     description: "N7 brings full capabilities across strategy, human-centred design, operations, engineering and data science to create and deliver disruptive innovation. Our approach to building digital banks is specifically designed to help clients",
     linkText: "learn more",
-    iconUrl: "/feature5.svg"
+    iconUrl: "./feature5.svg"
   }
 ];
 

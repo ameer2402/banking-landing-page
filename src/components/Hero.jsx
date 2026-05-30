@@ -30,7 +30,7 @@ const Hero = () => {
       {/* Right Dashboard Mockup (Frame 114 SVG) */}
       <div className="flex-1 w-full lg:w-auto relative flex justify-center lg:justify-end">
         <img 
-          src="/frame114.svg" 
+          src="./frame114.svg" 
           alt="Banking Dashboard Mockup" 
           className="w-full max-w-[650px] object-contain drop-shadow-2xl"
         />

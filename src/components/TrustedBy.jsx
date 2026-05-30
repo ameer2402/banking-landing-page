@@ -9,7 +9,7 @@ const TrustedBy = () => {
         </h3>
         <div className="w-full flex items-center justify-center lg:justify-start">
           <img
-            src="/trustedby_logos.svg"
+            src="./trustedby_logos.svg"
             alt="Trusted by companies"
             className="w-full max-w-full object-contain opacity-60 hover:opacity-100 transition-opacity duration-300"
           />
